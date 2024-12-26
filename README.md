@@ -1,3 +1,13 @@
+# Terraform Provider Hashicups
+This is the learning project in [Create Custom Terraform Provider](https://developer.hashicorp.com/terraform/tutorials/providers-plugin-framework)
+It start by cloning the [terraform-provider-scaffolding](https://github.com/hashicorp/terraform-provider-scaffolding) and implementing step by step:
+- A basic provider skelethon
+- A Data Source for get Coffees available
+- A resource to place an order of specific coffee
+- An import functionality to align state with existing order not in state
+- A provider function to compute fixed tax calculation
+
+
 # Terraform Provider Scaffolding (Terraform Plugin Framework)
 
 _This template repository is built on the [Terraform Plugin Framework](https://github.com/hashicorp/terraform-plugin-framework). The template repository built on the [Terraform Plugin SDK](https://github.com/hashicorp/terraform-plugin-sdk) can be found at [terraform-provider-scaffolding](https://github.com/hashicorp/terraform-provider-scaffolding). See [Which SDK Should I Use?](https://developer.hashicorp.com/terraform/plugin/framework-benefits) in the Terraform documentation for additional information._
